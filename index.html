@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <title>The Great Cardinal Quiz</title>
+  </head>
+  <body>
+    <section class="title-section">
+      <div class="container">
+        <h1 class="title-text">
+          Welcome to the
+          <span style="color: rgb(240, 20, 20)">Cardinal's</span> Nest.
+        </h1>
+        <p class="title-description">
+          Take the quiz below to test your knowledge on all things cardinal
+          related.
+        </p>
+      </div>
+    </section>
+    <section class="first-q-section section-bg">
+      <div class="container">
+        <div class="collapsible">
+          <button class="collapsible-top question-text">
+            1. What year did St Louis Cardinals pitcher Bob Gibson record a
+            historic 1.12 ERA?
+          </button>
+          <div class="question-content">
+            <div class="question-options buttons-grid">
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq1"
+                value="1971"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq1 answer"
+                value="1968"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq1"
+                value="1967"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq1"
+                value="1964"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="second-q-section section-bg">
+      <div class="container">
+        <div class="collapsible">
+          <button class="collapsible-top question-text">
+            2. Which of the following is not a cardinal sin?
+          </button>
+          <div class="question-content">
+            <div class="question-options buttons-grid">
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq2 answer"
+                value="Ignorance"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq2"
+                value="Wrath"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq2"
+                value="Envy"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq2"
+                value="Sloth"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="third-q-section section-bg">
+      <div class="container">
+        <div class="collapsible">
+          <button class="collapsible-top question-text">
+            3. According to the IOC World Bird List - How many subspecies of
+            Northern Cardinal are there?
+          </button>
+          <div class="question-content">
+            <div class="question-options buttons-grid">
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq3"
+                value="8"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq3 answer"
+                value="19"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq3"
+                value="31"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq3"
+                value="43"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fourth-q-section section-bg">
+      <div class="container">
+        <div class="collapsible">
+          <button class="collapsible-top question-text">
+            4. What is the NFL's Arizona Cardinals mascot name?
+          </button>
+          <div class="question-content">
+            <div class="question-options buttons-grid">
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq4"
+                value="Cardi Z"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq4"
+                value="Gavin Chirp"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq4"
+                value="Crimson Crest"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq4 answer"
+                value="Big Red"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fifth-q-section section-bg">
+      <div class="container">
+        <div class="collapsible">
+          <button class="collapsible-top question-text">
+            5. How long is the wingspan of an adult Northern Cardinal?
+          </button>
+          <div class="question-content">
+            <div class="question-options buttons-grid">
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq5"
+                value="12-18 cm"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq5"
+                value="18-25 cm"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq5 answer"
+                value="25-31 cm"
+              />
+              <input
+                type="button"
+                class="buttons-options unselected buttons-options-bgc btnq5"
+                value="31-37 cm"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="final-button-section section-bg">
+      <a href="results.html" class="final-button">Submit</a>
+    </section>
+
+    <script defer src="script.js" type="module"></script>
+  </body>
+</html>

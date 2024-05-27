@@ -1,0 +1,147 @@
+/* 1248px */
+@media (max-width: 78em) {
+  .title-text {
+    font-size: 14rem;
+  }
+}
+
+/* 992px */
+@media (max-width: 62em) {
+  .buttons-options {
+    font-size: 2.4rem;
+  }
+  .title-text-results {
+    font-size: 14rem;
+  }
+}
+
+/* 864px */
+@media (max-width: 54em) {
+  .title-text {
+    font-size: 10rem;
+  }
+  .title-description {
+    font-size: 2rem;
+  }
+  .buttons-options {
+    font-size: 2.2rem;
+  }
+  .buttons-grid {
+    gap: 2rem;
+  }
+  .question-content {
+    padding: 0 0rem;
+  }
+  .question-text {
+    font-size: 1.8rem;
+  }
+  .title-text-results {
+    font-size: 10rem;
+  }
+}
+/* 720px */
+@media (max-width: 45em) {
+  .question-text {
+    font-size: 1.6rem;
+  }
+  .collapsible-top {
+    padding: 1.2rem;
+  }
+  .collapsible {
+    width: 90%;
+  }
+  .final-button {
+    font-size: 2rem;
+  }
+}
+
+/* 576px */
+@media (max-width: 36em) {
+  .title-text {
+    font-size: 8rem;
+  }
+  .title-description {
+    font-size: 1.6rem;
+  }
+  .buttons-options {
+    font-size: 2rem;
+  }
+  .final-button {
+    font-size: 1.6rem;
+  }
+  .title-text-results {
+    font-size: 8rem;
+    padding-top: 0rem;
+    padding-bottom: 3.8rem;
+  }
+}
+
+/* 480px */
+@media (max-width: 30em) {
+  .title-text {
+    font-size: 6rem;
+  }
+  .title-description {
+    font-size: 1.4rem;
+  }
+  .buttons-options {
+    font-size: 1.6rem;
+  }
+  .question-options {
+    padding: 2rem;
+  }
+  .final-button {
+    width: 35%;
+  }
+  .title-text-results {
+    font-size: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 3.2rem;
+  }
+}
+
+/* 432px */
+@media (max-width: 27em) {
+  .buttons-grid {
+    gap: 1.2rem;
+  }
+}
+
+/* 384px */
+@media (max-width: 24em) {
+  .question-options {
+    padding: 1.4rem;
+  }
+  .buttons-options {
+    font-size: 1.4rem;
+  }
+  .title-text-results {
+    font-size: 5rem;
+  }
+}
+
+/* 352px */
+@media (max-width: 22em) {
+  .title-text {
+    font-size: 4rem;
+  }
+  .title-description {
+    font-size: 1.2rem;
+  }
+  .buttons-options {
+    font-size: 1.3rem;
+  }
+}
+
+/* 336px */
+@media (max-width: 21em) {
+  .buttons-options {
+    font-size: 1.2rem;
+  }
+  .buttons-grid {
+    gap: 1rem;
+  }
+  .question-options {
+    padding: 1.2rem;
+  }
+}
